@@ -7,5 +7,6 @@ def main():
     año_nacimiento = int(input("Ingresa tu año de nacimiento: "))
     edad = calcular_edad(año_nacimiento)
     print(f"Hola {nombre}, tienes {edad} años.")
+    print(f"Nacio el año {año_nacimiento}.")
 
 main()
